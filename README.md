@@ -65,8 +65,8 @@ position:absolute;
     <div id="footer">
         <?php include 's/footer.php';?>
         <label>WALA TOTAL SCORE</label>
-   &nbsp&nbsp&nbsp&nbsp&nbsp  <input id=2demoI type=number min=0 max=100><button onclick="decrement3()">ERASE</><br>
-          
+        &nbsp&nbsp&nbsp&nbsp&nbsp  <input id=2demoI type=number min=0 max=100> <button onclick="decrement3()">ERASE</><br>
+        
         <button onclick="increment1()">MAKAHIG</button>
          <button onclick="increment1()">NAGBIBISIKLETA ANG PAA</button>
         <button onclick="increment1()">BULTO KATAWAN</button>
