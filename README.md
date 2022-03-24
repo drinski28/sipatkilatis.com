@@ -33,7 +33,7 @@ position:absolute;
     <div id="header">
         <?php include 's/header.php';?
         <label>MERON TOTAL SCORE</label>
-        &nbsp&nbsp&nbsp&nbsp&nbsp  <input id=demoI type=number min=0 max=100> <button onclick="decrement2()">ERASE</><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp  <input id=demoI type=number min=0 max=100> <button onclick="decrement2()">ERASE</button><br>
         
         <button onclick="increment()">MAKAHIG</button>
         <button onclick="increment()">NAGBIBISIKLETA ANG PAA</button>
