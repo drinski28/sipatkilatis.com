@@ -1,15 +1,14 @@
 
 <html>
 <style type="text/css">
-
-       }
-body {
+ }
+ body{
 margin:0;
 padding:0;
 }
 div#header{
 width:100%;
-height:105px;
+height:107px;
 position:fixed;
 z-index:100;
 background-color:#F00;
@@ -18,7 +17,7 @@ background-color:#F00;
 
 div#footer{
 width:100%;
-height:105px;
+height:107x;
 position:fixed;
 bottom:0;
 background-color:#06F;
@@ -31,10 +30,11 @@ position:absolute;
 
     }
     button {
-    background-color: yellow;
+    background-color: ;
     color: black;
     text-align: center;
     font-size: 10px;
+    {
 </style>
 <body>
 <div id="container">
@@ -59,7 +59,7 @@ position:absolute;
         document.getElementById('demoI').stepUp(2);
         }
         function decrement() {
-        document.getElementById('demoI').stepDown();
+        document.getElementById('demoI').stepDown(2);
         
         }
         function decrement2() {
@@ -91,7 +91,7 @@ position:absolute;
         document.getElementById('2demoI').stepUp(2);
         }
         function decrement1() {
-        document.getElementById('2demoI').stepDown();
+        document.getElementById('2demoI').stepDown(2);
        
      
         
