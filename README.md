@@ -1,4 +1,3 @@
-
 <html>
 <style type="text/css">
  }
@@ -8,7 +7,7 @@ padding:0;
 }
 div#header{
 width:100%;
-height:107px;
+height:150px;
 position:fixed;
 z-index:100;
 background-color:#F00;
@@ -17,7 +16,7 @@ background-color:#F00;
 
 div#footer{
 width:100%;
-height:107x;
+height:150x;
 position:fixed;
 bottom:0;
 background-color:#06F;
@@ -74,7 +73,7 @@ position:absolute;
     <div id="footer">
         <?php include 's/footer.php';?>
         <label>WALA TOTAL SCORE</label>
-   &nbsp&nbsp&nbsp&nbsp&nbsp  <input id=2demoI type=number value=0 min=0 max=100>&nbsp<button onclick="decrement3()">ERASE</>
+   &nbsp&nbsp&nbsp&nbsp&nbsp  <input id=2demoI type=number value=0 min=0 max=100>&nbsp<button onclick="decrement3()">ERASE</><br>
       
        <button onclick="increment1()">MAKAHIG</button>
          <button onclick="increment1()">NAGBIBISIKLETA ANG PAA</button>
